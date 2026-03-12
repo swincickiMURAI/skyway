@@ -1,0 +1,151 @@
+* {
+border: 0;
+padding: 0;
+margin: 0;
+}
+
+footer.california-m {
+  background-color: #333;
+  color: #FFF;
+  padding: 30px;
+  width: 30%;
+  margin-bottom: 20px;    
+text-align: center;
+}
+
+#peach {
+    background-image: url(img/peach02.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    margin-left: 75%; 
+    text-align: left;
+ position: absolute;
+  left: 3%;
+    z-index: 997;
+}
+
+#peach:hover {
+    background-image: url(img/peach01.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    margin-left: 75%; 
+    text-align: left;
+}
+
+.book {
+    background-image: url(img/book02.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    margin-left: 75%; 
+    text-align: left;
+ position: absolute;
+  left: 10%;
+    z-index: 998;
+}
+
+.book:hover {
+    background-image: url(img/book01.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    margin-left: 75%; 
+    text-align: left;
+    z-index: 998;
+}
+
+
+div {
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+font-family: big john;
+width: 100%;
+height: 70vh;
+}
+
+h2 {
+font-size: 60px;
+background: #eee;
+padding: 8px 24px;
+border-radius: 16px;
+}
+
+.main{
+background-image: url(img/div1.png);
+background-size: cover;
+}
+
+.mid{
+background: #494F5C;
+height: 200px;
+}
+
+.mid:after {
+content:'';
+display: block;
+width: 80%;
+height: 100px;
+box-shadow: 0 2px 100px;
+position: absolute;
+bottom: 0;
+}
+
+.next{
+height: 400px;
+background-image: url(img/div3.png);
+background-attachment: fixed;
+background-size: cover;
+}
+
+.last{
+background: #494F5C;
+height: 200px;
+}
+
+.nav {
+position: fixed;
+width: 100%;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 999;
+}
+
+.logo {
+position: fixed;
+top: 10px;
+left: 10%;
+width: 35%;
+height: 35%;
+tranform: translateX(-20%);
+transition-property: width, height;
+transition-duration: 2s;
+padding: 1em;
+z-index:1000;
+}
+
+.logo:hover {
+  width: 100px;
+  height: 100px;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+
+
